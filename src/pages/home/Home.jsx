@@ -1,8 +1,9 @@
+import Layout from "../../components/layout/Layout";
+
 const Home = () => {
     return ( 
-        <div>
-            <h1>Oi</h1>
-        </div>
+        <Layout>
+        </Layout>
     );
 }
  
