@@ -1,19 +1,18 @@
-import { ElementHeader, HeaderContainer } from "./Header.style";
+import Button from "../Button/Button";
+import { UlNav, HeaderContainer, NavBar, UlLiNav } from "./Header.style";
 
 const Header = () => {
     return (  
-        <ElementHeader>
             <HeaderContainer>
-                <nav>
-                    <ul>
-                        <li>Home</li>
-                        <li>Scoreboard</li>
-                        <li>About</li>
-                    </ul>
-                    <button>Login</button>
-                </nav>
+                <NavBar>
+                    <UlNav>
+                        <UlLiNav>Home</UlLiNav>
+                        <UlLiNav>ScoreBoard</UlLiNav>
+                        <UlLiNav>About</UlLiNav>
+                    </UlNav>
+                    <Button>Sign Up</Button>
+                </NavBar>
             </HeaderContainer>
-        </ElementHeader>
     );
 }
  
