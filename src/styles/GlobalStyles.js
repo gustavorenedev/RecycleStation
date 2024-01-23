@@ -123,9 +123,6 @@ export const GlobalStyles = createGlobalStyle`
   strong {
     font-weight: 500;
   }
-  ol, ul {
-    margin-bottom: 16px;
-  }
 
   ol li {
     margin-right: 4px;
